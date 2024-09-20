@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+
+.navigasi{
+    background-color: #154360 ;
+    width: 100%;
+    height: 70px;
+    color: white;
+    
+
+}
+
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.banner{
+    background-color: #2980b9 ;
+    height: 580px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    border: 6px solid white;
+    margin-top: 50px;
+    
+}
+
+.banner h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.banner button {
+    margin-top: 55px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover{
+    background-color: #154360;
+    border:1px solid white;
+    color: white;
+   
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 9s ease;
+    transform:translateY(-50%);
+    color: white;
+    font-size: 40px;
+
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Dzilfaz Zamzamy';
+    }
+    100% {
+        content: 'Terimakasih Sudah Singgah!';
+    }
+}
+    
+.box-pendidikan {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 100px;\
+    align-content: center  ;
+}
+
+.box-kiri img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box-tengah img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box-kanan img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin: 70px 20px 20px 55px;
+    float:left ;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color:#2980b9  ;
+    color: white;
+}
+
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+
+.boxhobi {
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 580px ;
+}
+
+.sosmed {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 570px;
+}
+
+.sosmed h2,h3 {
+    margin-top: 20px;
+}
+
+.sosmed button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.sosmed button:hover {
+    background-color: #E1306C;
+}
+
+.sosmed img {
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.bawahan {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
